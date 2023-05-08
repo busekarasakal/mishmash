@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Eina";
+    src: local("Eina"),
+    url("./fonts/Eina/Eina.ttf") format("truetype");
+    font-weight: 400;
+}
+
+:root {
+    font-family: "Eina", sans-serif;
+}
